@@ -51,7 +51,7 @@ def mirror_new_website_path_params(is_https, url, req, rsp, body):
             }
             print("Risk detected:", risk)
         else:
-            print("未检测出漏洞")
+            print("未检测出漏洞!")
 
 # 示例调用
 mirror_new_website_path_params(False, "http://ctf.aabyss.cn/vul/fileinclude/fi_local.php?filename=file1.php&submit=%E6%8F%90%E4%BA%A4&__CBK=39e05be63bd29272f0c30ba8dd23d9fa51743065848_109546", None, None, None)
